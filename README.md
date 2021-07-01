@@ -77,7 +77,9 @@ The app ressources will be stored in ```/var/lib/snapd/snap/skypatterns/x1/resou
 ### Compile the Electron app
 
 ```
-npm install # Fetch dependencies
+npm install # Fetch dependencies for the main project
+cd src/api
+npm install # Fetch dependencies for the api
 
 then
 
